@@ -1,0 +1,12 @@
+digraph G {
+"telo" -> "predne_lave_koleso"[label=" Broadcaster: default_authority\nAverage rate: 20.233\nBuffer length: 4.3\nMost recent transform: 975.956\nOldest transform: 971.656\n"];
+"odom" -> "telo"[label=" Broadcaster: default_authority\nAverage rate: 1.25\nBuffer length: 4.0\nMost recent transform: 976.0\nOldest transform: 972.0\n"];
+"telo" -> "predne_prave_koleso"[label=" Broadcaster: default_authority\nAverage rate: 20.233\nBuffer length: 4.3\nMost recent transform: 975.956\nOldest transform: 971.656\n"];
+"telo" -> "zadne_lave_koleso"[label=" Broadcaster: default_authority\nAverage rate: 20.233\nBuffer length: 4.3\nMost recent transform: 975.956\nOldest transform: 971.656\n"];
+"telo" -> "zadne_prave_koleso"[label=" Broadcaster: default_authority\nAverage rate: 20.233\nBuffer length: 4.3\nMost recent transform: 975.956\nOldest transform: 971.656\n"];
+"telo" -> "camera_base"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1744226603.4569392"[ shape=plaintext ] ;
+}->"odom";
+}

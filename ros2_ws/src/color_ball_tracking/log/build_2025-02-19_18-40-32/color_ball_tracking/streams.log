@@ -1,0 +1,20 @@
+[0.032s] Invoking command in '/ros2_ws/src/color_ball_tracking/build/color_ball_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /ros2_ws/src/color_ball_tracking/build/color_ball_tracking -- -j12 -l12
+[0.160s] Invoked command in '/ros2_ws/src/color_ball_tracking/build/color_ball_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /ros2_ws/src/color_ball_tracking/build/color_ball_tracking -- -j12 -l12
+[0.192s] Invoking command in '/ros2_ws/src/color_ball_tracking/build/color_ball_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /ros2_ws/src/color_ball_tracking/build/color_ball_tracking
+[0.217s] -- Install configuration: ""
+[0.218s] -- Up-to-date: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/ament_index/resource_index/package_run_dependencies/color_ball_tracking
+[0.218s] -- Up-to-date: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/ament_index/resource_index/parent_prefix_path/color_ball_tracking
+[0.218s] -- Up-to-date: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/environment/ament_prefix_path.sh
+[0.219s] -- Up-to-date: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/environment/ament_prefix_path.dsv
+[0.219s] -- Up-to-date: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/environment/path.sh
+[0.219s] -- Up-to-date: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/environment/path.dsv
+[0.219s] -- Up-to-date: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/local_setup.bash
+[0.219s] -- Up-to-date: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/local_setup.sh
+[0.220s] -- Up-to-date: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/local_setup.zsh
+[0.220s] -- Up-to-date: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/local_setup.dsv
+[0.220s] -- Up-to-date: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/package.dsv
+[0.221s] -- Up-to-date: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/ament_index/resource_index/packages/color_ball_tracking
+[0.221s] -- Up-to-date: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/cmake/color_ball_trackingConfig.cmake
+[0.221s] -- Up-to-date: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/cmake/color_ball_trackingConfig-version.cmake
+[0.221s] -- Up-to-date: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/package.xml
+[0.224s] Invoked command in '/ros2_ws/src/color_ball_tracking/build/color_ball_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /ros2_ws/src/color_ball_tracking/build/color_ball_tracking

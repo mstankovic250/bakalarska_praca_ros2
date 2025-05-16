@@ -1,0 +1,4 @@
+source;share/color_ball_tracking/local_setup.bash
+source;share/color_ball_tracking/local_setup.dsv
+source;share/color_ball_tracking/local_setup.sh
+source;share/color_ball_tracking/local_setup.zsh

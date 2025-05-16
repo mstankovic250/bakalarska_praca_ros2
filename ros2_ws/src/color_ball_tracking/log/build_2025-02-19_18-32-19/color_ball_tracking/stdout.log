@@ -1,0 +1,44 @@
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /ros2_ws/src/color_ball_tracking/build/color_ball_tracking
+-- Install configuration: ""
+-- Installing: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/ament_index/resource_index/package_run_dependencies/color_ball_tracking
+-- Installing: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/ament_index/resource_index/parent_prefix_path/color_ball_tracking
+-- Installing: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/environment/ament_prefix_path.sh
+-- Installing: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/environment/ament_prefix_path.dsv
+-- Installing: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/environment/path.sh
+-- Installing: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/environment/path.dsv
+-- Installing: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/local_setup.bash
+-- Installing: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/local_setup.sh
+-- Installing: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/local_setup.zsh
+-- Installing: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/local_setup.dsv
+-- Installing: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/package.dsv
+-- Installing: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/ament_index/resource_index/packages/color_ball_tracking
+-- Installing: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/cmake/color_ball_trackingConfig.cmake
+-- Installing: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/cmake/color_ball_trackingConfig-version.cmake
+-- Installing: /ros2_ws/src/color_ball_tracking/install/color_ball_tracking/share/color_ball_tracking/package.xml

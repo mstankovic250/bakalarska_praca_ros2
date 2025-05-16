@@ -1,0 +1,9 @@
+/ros2_ws/src/color_ball_tracking/build/color_ball_tracking/CMakeFiles/uninstall.dir
+/ros2_ws/src/color_ball_tracking/build/color_ball_tracking/CMakeFiles/color_ball_tracking_uninstall.dir
+/ros2_ws/src/color_ball_tracking/build/color_ball_tracking/CMakeFiles/test.dir
+/ros2_ws/src/color_ball_tracking/build/color_ball_tracking/CMakeFiles/edit_cache.dir
+/ros2_ws/src/color_ball_tracking/build/color_ball_tracking/CMakeFiles/rebuild_cache.dir
+/ros2_ws/src/color_ball_tracking/build/color_ball_tracking/CMakeFiles/list_install_components.dir
+/ros2_ws/src/color_ball_tracking/build/color_ball_tracking/CMakeFiles/install.dir
+/ros2_ws/src/color_ball_tracking/build/color_ball_tracking/CMakeFiles/install/local.dir
+/ros2_ws/src/color_ball_tracking/build/color_ball_tracking/CMakeFiles/install/strip.dir
