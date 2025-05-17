@@ -7,9 +7,8 @@ import select
 import tty
 import termios
 
-# Definícia klávesových vstupov
 KEY_MAPPING = {
-    'w': (1.0, 0.0),  # Dopredu
+    'w': (1.0, 0.0),   # Dopredu
     's': (-1.0, 0.0),  # Dozadu
     'a': (0.0, 1.0),   # Doľava
     'd': (0.0, -1.0),  # Doprava
@@ -21,6 +20,8 @@ class MoveBall(Node):
         super().__init__('move_ball')
         self.publisher = self.create_publisher(Twist, '/ball_cmd_vel', 10)
         self.settings = termios.tcgetattr(sys.stdin)
+        self.linear_x = 0.0
+        self.linear_y = 0.0
 
     def get_key(self):
         tty.setraw(sys.stdin.fileno())
@@ -33,17 +34,25 @@ class MoveBall(Node):
         return key
 
     def run(self):
-        self.get_logger().info("Používajte klávesy W (dopredu), S (dozadu), A (doľava), D (doprava), medzerník (zastaviť).")
+        self.get_logger().info("Ovládaj loptičku: W/S (dopredu/dozadu), A/D (doľava/doprava), SPACE (stop)")
         while rclpy.ok():
             key = self.get_key()
             if key in KEY_MAPPING:
-                linear, angular = KEY_MAPPING[key]
+                dx, dy = KEY_MAPPING[key]
+                if key == 'w' or key == 's':
+                    self.linear_x = dx
+                elif key == 'a' or key == 'd':
+                    self.linear_y = dy
+                elif key == ' ':
+                    self.linear_x = 0.0
+                    self.linear_y = 0.0
+
                 twist = Twist()
-                twist.linear.x = linear
-                twist.angular.z = angular
+                twist.linear.x = self.linear_x
+                twist.linear.y = self.linear_y
                 self.publisher.publish(twist)
-                self.get_logger().info(f"Pohyb loptičky: linear={linear}, angular={angular}")
-            elif key == '\x03': 
+                self.get_logger().info(f"Pohyb loptičky: x={self.linear_x}, y={self.linear_y}")
+            elif key == '\x03':
                 break
 
 def main(args=None):

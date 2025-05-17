@@ -68,7 +68,7 @@ class ArucoNavigator(Node):
 
             for i in range(len(ids)):
                 marker_id = int(ids[i][0])
-                marker_center = np.mean(corners[i][0], axis=0)  # stred markeru
+                marker_center = np.mean(corners[i][0], axis=0)
 
                 world_pos = self.get_marker_world_position(marker_id)
                 if world_pos is not None:
@@ -83,7 +83,7 @@ class ArucoNavigator(Node):
 
                 if self.clicked_pixel is not None:
                     pixel = np.array([[[self.clicked_pixel[0], self.clicked_pixel[1]]]], dtype=np.float32)
-                    A = A.astype(np.float32)  # zabezpeči kompatibilitu typov
+                    A = A.astype(np.float32)
                     transformed = cv2.transform(pixel, A)[0][0]
 
                     self.get_logger().info(
@@ -108,7 +108,7 @@ class ArucoNavigator(Node):
         cv2.waitKey(1)
 
     def get_marker_world_position(self, marker_id):
-        # Známe pozície markerov v rovine Z=0 (musíš ich mať v simulácii!)
+        # Známe pozície markerov v rovine Z=0
         poses = {
             0: [5.0, 2.0],
             1: [5.0, -2.0],

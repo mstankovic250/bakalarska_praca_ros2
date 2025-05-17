@@ -34,11 +34,6 @@ class ArucoNavigator(Node):
                                        [0, 497.601, 234.274],
                                        [0, 0, 1]])
         self.dist_coeffs = np.zeros((5, 1))
-        # self.dist_coeffs[0] = 0.1578758
-        # self.dist_coeffs[1] = -0.5784303
-        # self.dist_coeffs[2] = 0.00135945
-        # self.dist_coeffs[3] = 0.1640043
-        # self.dist_coeffs[4] = -0.0087407
 
         self.goal_pose_odom = None
         self.navigation_active = False
@@ -103,7 +98,7 @@ class ArucoNavigator(Node):
                     marker_pose_camera.pose.orientation.z = quat[2]
                     marker_pose_camera.pose.orientation.w = quat[3]
 
-                    # Získaj transformáciu z camera_base → odom
+                    # transformácia z camera_base → odom
                     transform = self.tf_buffer.lookup_transform(
                         "odom", "camera_base",
                         rclpy.time.Time(),
@@ -116,7 +111,7 @@ class ArucoNavigator(Node):
                             f"Y={transform.transform.translation.y:.2f}"
                         )
 
-                    # Transformuj marker do rámca odom
+                    # Transformacia marker do rámca odom
                     transformed_pose = do_transform_pose_stamped(marker_pose_camera, transform)
                     self.goal_pose_odom = transformed_pose.pose
                     self.navigation_active = True
