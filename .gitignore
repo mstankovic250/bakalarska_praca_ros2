@@ -3,16 +3,3 @@ ros2_ws/build/
 ros2_ws/install/
 ros2_ws/log/
 
-# Python veci
-__pycache__/
-*.pyc
-
-# Lokálne prostredia (ak nejaké máš)
-ros2_ws/my_venv/
-ros2_ws/python-libs/
-
-# Editorové a systémové súbory
-*.swp
-.DS_Store
-.vscode/
-.idea/
